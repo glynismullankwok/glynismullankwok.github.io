@@ -59,25 +59,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-.search {
-    float: left;
-    margin-left: 30px;
-}
-
-.rep {
-    float: right;
-    margin-left: 25px;
-}
-.med {
-    float: left;
-    margin-left: 25px;
-}
-
 
 .benefits {
     margin-right: 20px;
@@ -136,6 +117,27 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+/* Rearranged location code for content section */
+/* Struggled with picture position and font size of content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Renamed classes for content section images */
+.search {
+    float: left;
+    margin-left: 25px;
+}
+
+.rep {
+    float: right;
+    margin-left: 25px;
+}
+.med {
+    float: left;
+    margin-left: 25px;
 }
 
 .search-engine-optimization {
